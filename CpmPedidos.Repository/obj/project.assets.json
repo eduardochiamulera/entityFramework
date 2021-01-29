@@ -1,11 +1,49 @@
 {
   "version": 3,
   "targets": {
-    "net5.0": {}
+    "net5.0": {
+      "CpmPedidos.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "compile": {
+          "bin/placeholder/CpmPedidos.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/CpmPedidos.Domain.dll": {}
+        }
+      },
+      "CpmPedidos.Interface/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "dependencies": {
+          "CpmPedidos.Domain": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/CpmPedidos.Interface.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/CpmPedidos.Interface.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "CpmPedidos.Domain/1.0.0": {
+      "type": "project",
+      "path": "../CpmPedidos.Domain/CpmPedidos.Domain.csproj",
+      "msbuildProject": "../CpmPedidos.Domain/CpmPedidos.Domain.csproj"
+    },
+    "CpmPedidos.Interface/1.0.0": {
+      "type": "project",
+      "path": "../CpmPedidos.Interface/CpmPedidos.Interface.csproj",
+      "msbuildProject": "../CpmPedidos.Interface/CpmPedidos.Interface.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    "net5.0": []
+    "net5.0": [
+      "CpmPedidos.Domain >= 1.0.0",
+      "CpmPedidos.Interface >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\eduardo.chiamulera\\.nuget\\packages\\": {},
@@ -40,7 +78,14 @@
       "frameworks": {
         "net5.0": {
           "targetAlias": "net5.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\PROJETOS\\CpmPedidos\\CpmPedidos.Domain\\CpmPedidos.Domain.csproj": {
+              "projectPath": "C:\\PROJETOS\\CpmPedidos\\CpmPedidos.Domain\\CpmPedidos.Domain.csproj"
+            },
+            "C:\\PROJETOS\\CpmPedidos\\CpmPedidos.Interface\\CpmPedidos.Interface.csproj": {
+              "projectPath": "C:\\PROJETOS\\CpmPedidos\\CpmPedidos.Interface\\CpmPedidos.Interface.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

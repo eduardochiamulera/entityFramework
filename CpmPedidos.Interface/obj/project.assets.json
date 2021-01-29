@@ -1,11 +1,30 @@
 {
   "version": 3,
   "targets": {
-    "net5.0": {}
+    "net5.0": {
+      "CpmPedidos.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "compile": {
+          "bin/placeholder/CpmPedidos.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/CpmPedidos.Domain.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "CpmPedidos.Domain/1.0.0": {
+      "type": "project",
+      "path": "../CpmPedidos.Domain/CpmPedidos.Domain.csproj",
+      "msbuildProject": "../CpmPedidos.Domain/CpmPedidos.Domain.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    "net5.0": []
+    "net5.0": [
+      "CpmPedidos.Domain >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\eduardo.chiamulera\\.nuget\\packages\\": {},
@@ -40,7 +59,11 @@
       "frameworks": {
         "net5.0": {
           "targetAlias": "net5.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\PROJETOS\\CpmPedidos\\CpmPedidos.Domain\\CpmPedidos.Domain.csproj": {
+              "projectPath": "C:\\PROJETOS\\CpmPedidos\\CpmPedidos.Domain\\CpmPedidos.Domain.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

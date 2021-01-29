@@ -1,0 +1,17 @@
+C:\PROJETOS\CpmPedidos\CpmPedidos.Repository\bin\Debug\net5.0\CpmPedidos.Repository.deps.json
+C:\PROJETOS\CpmPedidos\CpmPedidos.Repository\bin\Debug\net5.0\CpmPedidos.Repository.dll
+C:\PROJETOS\CpmPedidos\CpmPedidos.Repository\bin\Debug\net5.0\ref\CpmPedidos.Repository.dll
+C:\PROJETOS\CpmPedidos\CpmPedidos.Repository\bin\Debug\net5.0\CpmPedidos.Repository.pdb
+C:\PROJETOS\CpmPedidos\CpmPedidos.Repository\bin\Debug\net5.0\CpmPedidos.Domain.dll
+C:\PROJETOS\CpmPedidos\CpmPedidos.Repository\bin\Debug\net5.0\CpmPedidos.Interface.dll
+C:\PROJETOS\CpmPedidos\CpmPedidos.Repository\bin\Debug\net5.0\CpmPedidos.Domain.pdb
+C:\PROJETOS\CpmPedidos\CpmPedidos.Repository\bin\Debug\net5.0\CpmPedidos.Interface.pdb
+C:\PROJETOS\CpmPedidos\CpmPedidos.Repository\obj\Debug\net5.0\CpmPedidos.Repository.csprojAssemblyReference.cache
+C:\PROJETOS\CpmPedidos\CpmPedidos.Repository\obj\Debug\net5.0\CpmPedidos.Repository.GeneratedMSBuildEditorConfig.editorconfig
+C:\PROJETOS\CpmPedidos\CpmPedidos.Repository\obj\Debug\net5.0\CpmPedidos.Repository.AssemblyInfoInputs.cache
+C:\PROJETOS\CpmPedidos\CpmPedidos.Repository\obj\Debug\net5.0\CpmPedidos.Repository.AssemblyInfo.cs
+C:\PROJETOS\CpmPedidos\CpmPedidos.Repository\obj\Debug\net5.0\CpmPedidos.Repository.csproj.CoreCompileInputs.cache
+C:\PROJETOS\CpmPedidos\CpmPedidos.Repository\obj\Debug\net5.0\CpmPedidos.Repository.csproj.CopyComplete
+C:\PROJETOS\CpmPedidos\CpmPedidos.Repository\obj\Debug\net5.0\CpmPedidos.Repository.dll
+C:\PROJETOS\CpmPedidos\CpmPedidos.Repository\obj\Debug\net5.0\ref\CpmPedidos.Repository.dll
+C:\PROJETOS\CpmPedidos\CpmPedidos.Repository\obj\Debug\net5.0\CpmPedidos.Repository.pdb

@@ -4,4 +4,15 @@
     <TargetFramework>net5.0</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Folder Include="Common\" />
+    <Folder Include="Maps\" />
+    <Folder Include="Repositories\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\CpmPedidos.Domain\CpmPedidos.Domain.csproj" />
+    <ProjectReference Include="..\CpmPedidos.Interface\CpmPedidos.Interface.csproj" />
+  </ItemGroup>
+
 </Project>
