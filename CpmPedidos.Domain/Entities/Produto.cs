@@ -10,8 +10,9 @@ namespace CpmPedidos.Domain
         public string Descricao { get; set; }
         public decimal Preco { get; set; }
         public int IdCategoria { get; set; }
+        public bool Ativo { get; set; }
         public virtual CategoriaProduto Categoria { get; set; }
         public virtual List<Imagem> Imagens { get; set; }
-        public bool Ativo { get; set; }
+        public virtual List<PromocaoProduto> Promocoes { get; set; }
     }
 }
