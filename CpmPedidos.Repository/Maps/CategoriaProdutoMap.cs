@@ -5,15 +5,14 @@ using System;
 
 namespace CpmPedidos.Repository
 {
-    public class ComboMap : BaseDomainMap<Combo>
+    public class CategoriaProdutoMap : BaseDomainMap<CategoriaProduto>
     {
-        ComboMap() : base("tb_combo") { }
-        public override void Configure(EntityTypeBuilder<Combo> builder)
+        CategoriaProdutoMap() : base("tb_categoria_produto") { }
+        public override void Configure(EntityTypeBuilder<CategoriaProduto> builder)
         {
             base.Configure(builder);
 
             builder.Property(x => x.Nome).HasColumnName("nome").HasMaxLength(50).IsRequired();
-            builder.Property(x => x.Preco).HasColumnName("preco").HasPrecision(17, 2).IsRequired();
             builder.Property(x => x.Ativo).HasColumnName("ativo").IsRequired();
         }
     }
