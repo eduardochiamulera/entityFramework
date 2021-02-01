@@ -12,6 +12,7 @@ namespace CpmPedidos.API
 
         private static void RepositorDependence(IServiceCollection serviceProvider)
         {
+            //services.AddScoped<Interface, ClasseConcreta>();
         }
     }
 }

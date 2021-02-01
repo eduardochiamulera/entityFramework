@@ -2,7 +2,6 @@ C:\PROJETOS\CpmPedidos\CpmPedidos.Domain\bin\Debug\net5.0\CpmPedidos.Domain.deps
 C:\PROJETOS\CpmPedidos\CpmPedidos.Domain\bin\Debug\net5.0\CpmPedidos.Domain.dll
 C:\PROJETOS\CpmPedidos\CpmPedidos.Domain\bin\Debug\net5.0\ref\CpmPedidos.Domain.dll
 C:\PROJETOS\CpmPedidos\CpmPedidos.Domain\bin\Debug\net5.0\CpmPedidos.Domain.pdb
-C:\PROJETOS\CpmPedidos\CpmPedidos.Domain\obj\Debug\net5.0\CpmPedidos.Domain.csprojAssemblyReference.cache
 C:\PROJETOS\CpmPedidos\CpmPedidos.Domain\obj\Debug\net5.0\CpmPedidos.Domain.GeneratedMSBuildEditorConfig.editorconfig
 C:\PROJETOS\CpmPedidos\CpmPedidos.Domain\obj\Debug\net5.0\CpmPedidos.Domain.AssemblyInfoInputs.cache
 C:\PROJETOS\CpmPedidos\CpmPedidos.Domain\obj\Debug\net5.0\CpmPedidos.Domain.AssemblyInfo.cs
