@@ -1,5 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 
 namespace CpmPedidos.Domain
 {
@@ -10,7 +9,7 @@ namespace CpmPedidos.Domain
         public int IdImagem { get; set; }
         public int IdProduto { get; set; }
         public virtual Imagem Imagem { get; set; }
-        public virtual List<Produto> Produto { get; set; }
+        public virtual List<Produto> Produtos { get; set; }
         public bool Ativo { get; set; }
     }
 }

@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 
 namespace CpmPedidos.Domain
 {
@@ -8,5 +9,6 @@ namespace CpmPedidos.Domain
         public string Nome { get; set; }
         public string NomeArquivo { get; set; }
         public bool Principal { get; set; }
+        public List<Produto> Produtos { get; set; }
     }
 }

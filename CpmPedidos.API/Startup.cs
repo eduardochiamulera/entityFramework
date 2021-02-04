@@ -30,7 +30,8 @@ namespace CpmPedidos.API
                     assembly => assembly.MigrationsAssembly(typeof(ApplicationDbContext).Assembly.FullName));
             });
             DependencyInjection.Register(services);
-            services.AddControllers(); 
+            services.AddControllers()
+                .AddNewtonsoftJson(options => options.SerializerSettings.ReferenceLoopHandling = Newtonsoft.Json.ReferenceLoopHandling.Ignore); 
         }
 
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)

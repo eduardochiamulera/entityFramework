@@ -1,4 +1,6 @@
-﻿using Microsoft.Extensions.DependencyInjection;
+﻿using CpmPedidos.Interface;
+using CpmPedidos.Repository;
+using Microsoft.Extensions.DependencyInjection;
 
 
 namespace CpmPedidos.API
@@ -12,7 +14,10 @@ namespace CpmPedidos.API
 
         private static void RepositorDependence(IServiceCollection serviceProvider)
         {
-            //services.AddScoped<Interface, ClasseConcreta>();
+            //serviceProvider.AddScoped<Interface, ClasseConcreta>();
+            serviceProvider.AddScoped<IProdutoRepository, ProdutoRepository>();
+            serviceProvider.AddScoped<IPedidoRepository, PedidoRepository>();
+
         }
     }
 }
